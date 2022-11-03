@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Alfa+Slab+One&family=Amiri:ital,wght@0,400;1,700&family=Bree+Serif&family=Carter+One&family=Chewy&family=Courgette&family=Fredericka+the+Great&family=Gulzar&family=Lobster&family=Source+Sans+Pro:ital@1&family=Sriracha&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches', cursive;
+}
+nav{
+    width:100%;
+    background-color: rgb(51, 51, 51);
+    height: 120px;
+    position: fixed;
+    z-index: 1;
+}
+#big{
+    font-size: 50px;
+    color:gold;
+}
+#short{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: aliceblue;
+    margin-top: 0;
+    margin-top: -10px;
+    padding-left: 10px;
+}
+.logo{
+    padding-top: 20px ;
+    padding-left: 65px;
+}
+
+nav ul{
+    float: right;
+    margin-top: -55px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 19px;
+    padding: 7px;
+}
+#active{
+    border: 1px solid whitesmoke;
+    border-radius: 1cm;
+}
+nav ul li a:hover{
+    color:gold;
+}
+.img img{
+    width: 100%;
+}
+.img{
+    padding-top: 8%;
+    position: relative;
+}
+.inn{
+    position: absolute;
+    top: 50%;
+    padding-left: 200px;
+    height: 100px;
+
+}
+.inn p{
+    font-family:'Alfa Slab One', cursive;
+    color:rgba(10, 10, 9, 0.621);
+    font-size: 35px;
+}
+.about{
+    margin-top: 500px;
+    padding-top: 8%;
+}
+.about img{
+    width: 100%;
+    position: relative;
+}
+.disc{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+}
+.left{
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 600px;
+}
+.left h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.left p{
+    padding-top: 30px;
+    font: size 20px; ;
+    color: rgba(31, 31, 31, 0.716);
+}
+.right{
+    width: 450px;
+
+}
+.right p{
+    margin-top: 240px;
+    color: rgba(28, 28, 28, 0.87);
+    padding-bottom: 30px;
+}
+.right button{
+    color: black;
+    background-color: gold;
+    border-color: gold;
+    padding: 7px;
+    border-radius:1cm;
+}
+.Service{
+    margin-top:500px;
+    display: flex;
+    margin-bottom: 500px;
+    padding-top: 8%;
+}
+
+.con1 img{
+    width:500px;
+    height: 333.5px;
+}
+.con2 img{
+    width:490px;
+    height: 333.5px;
+}
+.con3 img{
+    width:490px;
+    height: 333.5px;
+}
+.con1 img:hover{
+    width: 500px;
+    height:340px;
+}
+.con2 img:hover{
+    width: 500px;
+    height:340px;
+}
+.con3 img:hover{
+    width: 500px;
+    height:340px;
+}
+.con1 h1{
+    padding: 20px;
+    color: gold;
+    font-size: 25px;
+}
+.con2 h1{
+    padding: 20px;
+    color: gold;
+    font-size: 25px;
+}
+.con3 h1{
+    padding:20px;
+    color: gold;
+    font-size: 25px;
+}
+.con1 p{
+    color:rgb(76, 75, 75);
+    font-size: 17px;
+    padding: 10px;
+}
+.con2 p{
+    color:rgb(76, 75, 75);
+    font-size: 17px;
+    padding: 10px;
+}
+.con3 p{
+    color:rgb(76, 75, 75);
+    font-size: 17px;
+    padding: 10px;
+}
+.contact-parent{
+    background: #fff;
+    display:flex;
+    margin:80px 0;
+    /* padding-top: 8%; */
+}
+
+.contact-child{
+    display:flex;
+    flex:1;
+    box-shadow:0px 0px 10px -2px rgba(0,0,0,0.75);
+}
+
+.child1{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://cdn.pixabay.com/photo/2019/06/28/00/17/architecture-4303279_1280.jpg");
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    color:#fff;
+    padding:100px 0;
+}
+
+.child1 p{
+    padding-left:20%;
+    font-size:20px;
+    text-shadow:0px 0px 2px #000;
+}
+
+.child1 p span{
+    font-size:16px;
+    color:gold;
+}
+
+.child2{
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.inside-contact{
+    width:90%;
+    margin:0 auto;
+}
+
+.inside-contact h2{
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:50px;
+}
+
+.inside-contact h3{
+    text-align:center;
+    font-size:16px;
+    color:#0085e2;
+}
+
+.inside-contact input, .inside-contact textarea{
+    width:100%;
+    background-color:#eee;
+    border:1px solid rgba(0,0,0,0.48);
+    padding:5px 10px;
+    margin-bottom:20px;
+}
+
+.inside-contact input[type=submit]{
+    background-color:#000;
+    color:#fff;
+    transition:0.2s;
+    border:2px solid #000;
+    margin:30px 0;
+}
+
+.inside-contact input[type=submit]:hover{
+    background-color:#fff;
+    color:#000;
+    transition:0.2s;
+}
+
+@media screen and (max-width:991px){
+    .contact-parent{
+        display:block;
+        width:100%;
+    }
+
+    .child1{
+        display:none;
+    }
+
+    .child2{
+        background-image:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url("https://cdn.pixabay.com/photo/2019/06/28/00/17/architecture-4303279_1280.jpg");
+        background-size:cover;
+    }
+
+    .inside-contact input, .inside-contact textarea{
+        background-color:#fff;
+    }
+}
+
+.rt-heading{
+    padding-top: 8%;
+}
